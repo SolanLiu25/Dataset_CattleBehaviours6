@@ -79,18 +79,6 @@ CattleBehaviours6 contains six behaviour categories:
 
 The video files and dataset metadata are distributed through Zenodo rather than committed directly to this repository.
 
-## Motivation
-
-Automatic monitoring of cattle behaviour can provide useful information related to animal health, welfare, and productivity. Video-based cattle behaviour recognition is still challenging because publicly available annotated livestock video datasets are limited, cattle appearance and posture vary across camera views and lighting conditions, and agricultural surveillance footage differs substantially from general-purpose computer vision data.
-
-CattleBehaviours6 was created as a curated benchmark for studying these challenges in indoor dairy farm environments.
-
-## Cattle-CLIP
-
-CattleBehaviours6 was introduced alongside **Cattle-CLIP**, a multimodal framework for dairy cattle behaviour recognition. Cattle-CLIP adapts Contrastive Language-Image Pretraining (CLIP) to video-based cattle behaviour understanding by incorporating temporal information and behaviour-specific semantic descriptions.
-
-The associated paper evaluates Cattle-CLIP under both fully supervised and few-shot learning settings. Please refer to the paper for model details, experimental setup, and benchmark results.
-
 ## Citation
 
 If you use CattleBehaviours6, please cite both the dataset and the associated paper.
