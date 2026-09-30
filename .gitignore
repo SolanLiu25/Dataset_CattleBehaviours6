@@ -1,0 +1,34 @@
+# macOS metadata
+.DS_Store
+
+# Dataset archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Video data distributed through Zenodo
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Local dataset files distributed through Zenodo
+labels.json
+train.txt
+val.txt
+test.txt
+feeding/
+drinking/
+standing-self-grooming/
+standing-ruminating/
+standing-ruminating-part2/
+lying-self-grooming/
+lying-ruminating/
+
+# Local experiment outputs
+checkpoints/
+runs/
+outputs/
+results/
