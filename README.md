@@ -1,10 +1,10 @@
 # Dataset: CattleBehaviours6
-A dataset for recognising cattle behaviours using short video clips. This dataset accompanies the paper "Cattle-CLIP: A Multimodal Framework for Cattle Behaviour Recognition".
+A dataset for recognising cattle behaviours using short video clips. This dataset accompanies the paper "Cattle-CLIP: A Multimodal Framework for Dairy Cattle Behaviour Recognition from Video".
 
 ## Dataset Overview
 - Name: CattleBehaviors6
-- Number of samples: 1,593 video clips
-- Behaviours covered: self-grooming, feeding, drinking, ruminating, standing-idle, chewing.
+- Number of samples: 1,905 video clips
+- Behaviours covered: feeding, drinking, standing-self-grooming, standing-ruminating, lying-self-grooming, lying-ruminating.
 - Modalities:
   - Video: RGB clips with duration of 3-10 seconds
 <!-- Total Size: XX GB -->
@@ -16,14 +16,14 @@ A dataset for recognising cattle behaviours using short video clips. This datase
 ## Annotation Format
 Each line in the annotation file follows the format:
 
-videos/train/000123.mp4  3
+videos/feeding/00001.mp4  0
 
 where
 - video_path: relative path to the video file
 - label: integer representing the behaviour category
 
 ## Download
-The download link will be available once the paper has been accepted.
+The download link is here.
 
 <!-- Citation -->
 
